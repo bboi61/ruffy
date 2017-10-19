@@ -15,6 +15,21 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
+        
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Ruffy  \u26d1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+        
         <TextView
             android:id="@+id/main_log"
             style="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
